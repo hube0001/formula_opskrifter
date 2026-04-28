@@ -1,3 +1,9 @@
+import MyFormula from "@/components/MyFormula";
+
 export default function Home() {
-  return <div></div>;
+  return (
+    <div>
+      <MyFormula />
+    </div>
+  );
 }
